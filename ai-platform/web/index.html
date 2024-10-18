@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Platform</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="AI Platform - Your comprehensive AI solution.">
+    <meta name="theme-color" content="#007BFF">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header"></div>
+
+    <!-- Main Content Area -->
+    <main id="app"></main>
+
+    <!-- Footer Component -->
+    <div id="footer"></div>
+
+    <!-- Modal Component -->
+    <div id="modal"></div>
+
+    <!-- Loading Spinner Component -->
+    <div id="loading-spinner" class="spinner" aria-hidden="true" hidden>
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" aria-live="polite" aria-atomic="true" class="toast-container"></div>
+
+    <script src="./assets/js/main.js" defer></script>
+    <script>
+        // Initialize Feather Icons
+        document.addEventListener('DOMContentLoaded', () => {
+            feather.replace();
+        });
+    </script>
+</body>
+</html>
