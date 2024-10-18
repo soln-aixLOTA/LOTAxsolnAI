@@ -63,33 +63,33 @@ The **AI-Platform** is a versatile and scalable AI solution built with **Go** to
 The project is organized as follows:
 
 ```
-ai-platform/
-├── cmd/
-│   └── main.go               # Main entry point of the project
-├── internal/
-│   ├── ai_chatbot/           # AI Chatbot module
-│   ├── predictive_analytics/
-│   │   ├── risk_assessment/    # Risk assessment models
-│   │   └── customer_behavior/  # Customer behavior models
-│   ├── personalization_engine/ # Recommender systems
-│   ├── auto_ml/              # AutoML functionality
-│   ├── cybersecurity_ai/     # Cybersecurity AI models
-│   ├── supply_chain_ai/      # Supply chain optimization
-│   ├── rpa_ai/               # Robotic Process Automation (RPA)
-│   ├── healthcare_ai/        # Healthcare-related AI models
-│   ├── utils/                # Utility functions
-│   └── config/               # Configuration management
-├── pkg/
-│   └── models/               # Shared data models
-├── tests/
-│   ├── unit/                 # Unit tests
-│   └── integration/          # Integration tests
-├── data/                     # Data files for training and predictions
-├── configs/
-│   └── config.yaml           # Configuration file
-├── docs/                     # Documentation
-├── LICENSE                   # License information
-└── README.md                 # Project documentation
+ai-platform/                                                                                                                                                                                                                                                                                                                                    
+├── cmd/                                                                                                                                                                                                           
+│   └── main.go               # Main entry point of the project                                                                                                                                                   
+├── internal/                                                                                                                                                                                                      
+│   ├── ai_chatbot/           # AI Chatbot module                                                                                                                                                                  
+│   ├── predictive_analytics/                                                                                                                                                                                      
+│   │   ├── risk_assessment/    # Risk assessment models                                                                                                                                                           
+│   │   └── customer_behavior/  # Customer behavior models                                                                                                                                                         
+│   ├── personalization_engine/ # Recommender systems                                                                                                                                                              
+│   ├── auto_ml/              # AutoML functionality                                                                                                                                                               
+│   ├── cybersecurity_ai/     # Cybersecurity AI models                                                                                                                                                            
+│   ├── supply_chain_ai/      # Supply chain optimization                                                                                                                                                          
+│   ├── rpa_ai/               # Robotic Process Automation (RPA)                                                                                                                                                   
+│   ├── healthcare_ai/        # Healthcare-related AI models                                                                                                                                                       
+│   ├── utils/                # Utility functions                                                                                                                                                                  
+│   └── config/               # Configuration management                                                                                                                                                           
+├── pkg/                                                                                                                                                                                                           
+│   └── models/               # Shared data models                                                                                                                                                                
+├── tests/                                                                                                                                                                                                         
+│   ├── unit/                 # Unit tests                                                                                                                                                                  
+│   └── integration/          # Integration tests                                                                                                                                                                  
+├── data/                     # Data files for training and predictions                                                                                                                                            
+├── configs/                                                                                                                                                                                                       
+│   └── config.yaml           # Configuration file                                                                                                                                                                 
+├── docs/                     # Documentation                                                                                                                                                                      
+├── LICENSE                   # License information                                                                                                                                                                
+└── README.md                 # Project documentation                                                                                                                                                                
 ```
 
 ## Getting Started
