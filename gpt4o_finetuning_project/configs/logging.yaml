@@ -1,0 +1,24 @@
+# configs/logging.yaml
+
+version: 1
+formatters:
+  json:
+    format: '{"time": "%(asctime)s", "name": "%(name)s", "level": "%(levelname)s", "message": "%(message)s"}'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: json
+    level: ${LOG_LEVEL_CONSOLE:INFO}
+  file:
+    class: logging.FileHandler
+    formatter: json
+    level: ${LOG_LEVEL_FILE:DEBUG}
+    filename: logs/app.log
+loggers:
+  src:
+    level: ${LOG_LEVEL_SRC:DEBUG}
+    handlers: [console, file]
+    propagate: no
+root:
+  level: ${LOG_LEVEL_ROOT:WARNING}
+  handlers: [console]
