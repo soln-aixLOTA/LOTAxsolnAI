@@ -1,0 +1,33 @@
+server:
+  port: 8080
+  read_timeout: "15s"
+  write_timeout: "15s"
+
+database:
+  host: "${DB_HOST}"
+  port: "${DB_PORT}"
+  user: "${DB_USER}"
+  password: "${DB_PASSWORD}"
+  dbname: "${DB_NAME}"
+
+ai_chatbot:
+  # Configuration handled in main.go
+
+predictive_analytics:
+  # Add relevant configurations
+
+supply_chain_ai:
+  erp:
+    endpoint: "${ERP_ENDPOINT}"
+    api_key: "${ERP_API_KEY}"
+
+cybersecurity_ai:
+  # Add cybersecurity configurations if any
+
+content_creation_ai:
+  # Add content creation configurations if any
+
+healthcare_ai:
+  drug_discovery_service_url: "${DRUG_DISCOVERY_SERVICE_URL}"
+  medical_image_diagnostics_service_url: "${MEDICAL_IMAGE_DIAGNOSTICS_SERVICE_URL}"
+LOTAxsolnAI
